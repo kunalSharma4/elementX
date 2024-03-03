@@ -31,3 +31,50 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+
+
+
+@keyframes changingGradient {
+  0% {
+    background-position: 0% 100%;
+  }
+  50%{
+    background-position: 50% 0%;;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+ 
+}
+
+.changing-gradient-text {
+  background: linear-gradient(90deg, #e38314, #22e5f3, #eae5e5, #f20505);
+  background-size: 200% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: changingGradient 3s linear infinite alternate-reverse;
+}
+
+
+
+/* Define the keyframes for the animation */
+
+
+.bg-gradient-to-r {
+  background: linear-gradient(120deg, #ec0b0b, #d231d2, #2d9fd8, #1262dc, #f68310);
+  background-size: 200% 100%;
+  color: transparent;
+  animation: changingGradient 3s linear infinite alternate;
+}
+.bg-gradient-to-l {
+  background: linear-gradient(120deg, #e4dddd, #a85f50, #6d7a80, #626c7c, #000000);
+  background-size: 200% 100%;
+  color: transparent;
+  animation: changingGradient 3s linear infinite alternate;
+}
+
+
