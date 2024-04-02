@@ -12,9 +12,11 @@ import { FaGithub, FaInstagram } from "react-icons/fa";
 export default function Footer  () {
   return (
     <React.Fragment>
-       <footer>
-                    
-              <h1>this is footer</h1>
+        <footer class=" bg-black  justify-center flex lg:text-left">
+          <div class="changing-gradient-text bg-black/5 p-4 text-center text-surface ">
+            © 2024 Copyright:
+            <a href="https://elementx.cloud/"> ElementX</a>
+          </div>
         </footer>
 
     </React.Fragment>
